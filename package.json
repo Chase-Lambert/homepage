@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "autoprefixer":"^10.4.7",
+    "postcss":"^8.4.14",
+    "postcss-cli":"^9.1.0",
+    "tailwindcss":"^3.0.24"
+  },
+    "scripts": {
+      "dev":"postcss tailwind.css -o main.css --verbose -w",
+      "release":"postcss tailwind.css -o main.css --verbose"
+    }
+}
